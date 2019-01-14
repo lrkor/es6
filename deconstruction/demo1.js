@@ -18,5 +18,3 @@ function f() {
 }
 
 let [x = f()] = [1];
-
-console.log(x);

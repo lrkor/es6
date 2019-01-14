@@ -45,5 +45,8 @@ let student = new Student('学生', '15', '1401010076');
 // student.sayName();
 // Student.eat();
 // person1.sayName();
-Person.eat('人');
-Student.eat('学生');
+// Person.eat('人');
+// Student.eat('学生');
+
+
+
