@@ -48,5 +48,3 @@ let student = new Student('学生', '15', '1401010076');
 // Person.eat('人');
 // Student.eat('学生');
 
-
-

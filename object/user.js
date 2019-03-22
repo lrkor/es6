@@ -21,6 +21,10 @@ class User {
             }
         });
     }
+
+    static say(){
+        console.log('用户都可以说话');
+    }
 }
 
 class Administrator extends User{
@@ -87,6 +91,7 @@ class Administrator extends User{
             console.log('暂无此人');
         }
     }
+
 }
 
 let administrator = new Administrator('张三',0,'管理员');
@@ -99,3 +104,7 @@ let objUpdate1 = {name:'修改一下',age:77};
 // administrator.del(2);
 administrator.update(1,objUpdate1);
 // administrator.query(3);
+
+// Administrator.say();
+
+
